@@ -12,6 +12,9 @@ body{
 }
 
 .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 200px;
 display: flex;
 flex-direction: column;
 justify-content: center;
